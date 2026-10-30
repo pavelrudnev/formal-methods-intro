@@ -1,0 +1,884 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "formal-representation-of-natural-language-introduction",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#last-time",
+    "href": "index.html#last-time",
+    "title": "Формальное представление естественного языка",
+    "section": "Last time",
+    "text": "Last time\nThe sound side of things:\n\nphonetics\n\narticulatory phonetics\nacoustic phonetics\nauditory phonetics\n\nphonology"
+  },
+  {
+    "objectID": "index.html#today",
+    "href": "index.html#today",
+    "title": "Формальное представление естественного языка",
+    "section": "Today",
+    "text": "Today\nThe visual side of things:\n\nwriting and its basic principles\nwriting systems"
+  },
+  {
+    "objectID": "index.html#definitions",
+    "href": "index.html#definitions",
+    "title": "Формальное представление естественного языка",
+    "section": "Definitions",
+    "text": "Definitions\nWriting\nA system of recording language by means of visual or tactile marks.\n\nwhy visual?\nwhy tactile?"
+  },
+  {
+    "objectID": "index.html#writing-and-speech",
+    "href": "index.html#writing-and-speech",
+    "title": "Формальное представление естественного языка",
+    "section": "Writing and speech",
+    "text": "Writing and speech\nWriting is always secondary to speech.\n\noverwhelmingly many languages have no consistent/standardised way of writing them down\nno ‘writing-only’ languages with no sound/sign form\nwritten form can change without significantly affecting language\nwritten form can remain the same but the language itself can change substantially\n\n\nIn fact, writing is a (legacy) language technology of sorts!"
+  },
+  {
+    "objectID": "index.html#a-few-contrasts",
+    "href": "index.html#a-few-contrasts",
+    "title": "Формальное представление естественного языка",
+    "section": "A few contrasts",
+    "text": "A few contrasts\nDo you agree with the following differences? Feel free to disagree!\n\n\n\nspeech\nwriting\n\n\n\n\ncontinuous\ndiscrete\n\n\ntime-bound\ntimeless\n\n\ncontext-bound\nautonomous\n\n\naudible\nvisible\n\n\nproduced by voice\nproduced by hand\n\n\n\n\n\n\n\nCan you think of more differences?"
+  },
+  {
+    "objectID": "index.html#what-does-writing-record",
+    "href": "index.html#what-does-writing-record",
+    "title": "Формальное представление естественного языка",
+    "section": "What does writing record?",
+    "text": "What does writing record?\nWriting records utterances.\n\nwhich are combinations of meaning and sound expressing that meaning.\n\nWhich of these two aspect should be written down?\n\nprimary focus on meaning?\nprimary focus on sound?"
+  },
+  {
+    "objectID": "index.html#writing-down-sounds",
+    "href": "index.html#writing-down-sounds",
+    "title": "Формальное представление естественного языка",
+    "section": "Writing down sounds",
+    "text": "Writing down sounds\n\nWhat are the pros?\n\nclear instructions as to how a string is to be pronounced\n\nWhat are the cons?\n\nWhere do we even start?.."
+  },
+  {
+    "objectID": "index.html#writing-down-sounds-the-cons",
+    "href": "index.html#writing-down-sounds-the-cons",
+    "title": "Формальное представление естественного языка",
+    "section": "Writing down sounds: the cons",
+    "text": "Writing down sounds: the cons\n\ntoo much variation across languages and within languages for this to be plausible\n\n/pɑ(ː)t/ is the UK pronunciation of part and the US pronunciation of pot\n/ɡɑ(ː)d/ is the UK pronunciation of guard and the US pronunciation of god\nthe t-like sound in the word bottle can in fact be realised in several ways\n\n\nPunchline: one must not go too far, since the words must ideally be recognisable for outsiders, too."
+  },
+  {
+    "objectID": "index.html#writing-down-meaningthoughtsideas",
+    "href": "index.html#writing-down-meaningthoughtsideas",
+    "title": "Формальное представление естественного языка",
+    "section": "Writing down meaning/thoughts/ideas",
+    "text": "Writing down meaning/thoughts/ideas\n\nWhat are the pros?\n\nmost of the meanings could be made easily recognisable, thus facilitating learning\n\nWhat are the cons?\n\nAgain, …"
+  },
+  {
+    "objectID": "index.html#writing-down-meaning-the-cons",
+    "href": "index.html#writing-down-meaning-the-cons",
+    "title": "Формальное представление естественного языка",
+    "section": "Writing down meaning: the cons",
+    "text": "Writing down meaning: the cons\n\nwith the average vocabulary of an average adult speaker of roughly 40,000 words, that would entail learning 40,000 distinct symbols\nadditional signs for writing down grammatically relevant information (present/past/future tense; masculine/feminine/neuter gender etc.)\n\nPunchline: one must not go too far, since the inventory of symbols should still be manageable\n\nIn other words, writing ‘pay this fine or go to jail’ might work when using a concatenation, or sequence, of 7 picture-like symbols (think emoji!), using the same method to record ‘if you had paid this fine, you wouldn’t have gone to jail’ is already much trickier."
+  },
+  {
+    "objectID": "index.html#writing-down-words",
+    "href": "index.html#writing-down-words",
+    "title": "Формальное представление естественного языка",
+    "section": "Writing down words",
+    "text": "Writing down words\nSo-called logographic writing systems\n\nEgyptian hieroglyphs\nChinese/Japanese kana hieroglyphs\n\n山 shān ‘mountain’\n木 mù ‘tree’"
+  },
+  {
+    "objectID": "index.html#writing-down-rebuses",
+    "href": "index.html#writing-down-rebuses",
+    "title": "Формальное представление естественного языка",
+    "section": "Writing down rebuses",
+    "text": "Writing down rebuses\n\n木 mù ‘tree’ + 氵 ‘water’ → 沐 mù ‘wash oneself’\ncu, 4u, 2u and many others in English\n\ndefinitely not an innovation, goes back at least to Sumerian, Akkadian/Babylonian, Hittite in Mesopotamia\n\nwritten using cuneiform (check out this page for some info on cuneiform, and a video tutorial)"
+  },
+  {
+    "objectID": "index.html#writing-down-different-sound-units",
+    "href": "index.html#writing-down-different-sound-units",
+    "title": "Формальное представление естественного языка",
+    "section": "Writing down different sound units",
+    "text": "Writing down different sound units\n\nlogographic systems\nphonetic/phonological systems\n\nwriting smallest sound segments\nwriting syllables"
+  },
+  {
+    "objectID": "index.html#what-do-alphabets-record",
+    "href": "index.html#what-do-alphabets-record",
+    "title": "Формальное представление естественного языка",
+    "section": "What do alphabets record?",
+    "text": "What do alphabets record?\n\nvowel sounds\n\nvowel length\nfronting (e.g. Estonian)\n\na – ä; o – ö; u – ü;\n\nnasality (e.g. Portuguese)\n\na – ã; au – ão/am;\n\n\nconsonant sounds"
+  },
+  {
+    "objectID": "index.html#syllabaries",
+    "href": "index.html#syllabaries",
+    "title": "Формальное представление естественного языка",
+    "section": "Syllabaries",
+    "text": "Syllabaries\nJapanese uses two distinct syllabaries, the Hiragana and the Katakana, alongside the ‘Chinese’ kana hieroglyphs.\n\n\n\n\n\nHiragana, from KuwashiiJapanese.Com\n\n\n\n\n\n\nKatakana, from KuwashiiJapanese.Com"
+  },
+  {
+    "objectID": "index.html#korean-writing",
+    "href": "index.html#korean-writing",
+    "title": "Формальное представление естественного языка",
+    "section": "Korean writing",
+    "text": "Korean writing\nA curious hybrid of an alphabetic and a syllabic writing system.\n\nHangul, from Easy Korean"
+  },
+  {
+    "objectID": "index.html#abjad",
+    "href": "index.html#abjad",
+    "title": "Формальное представление естественного языка",
+    "section": "Abjad",
+    "text": "Abjad\nOnly the consonants are recorded\n\n\nTh clv(r) snk dsp(r)d nt hl n th grnd\n\nThe clever snake disappeared into a hole in the ground."
+  },
+  {
+    "objectID": "index.html#abugida",
+    "href": "index.html#abugida",
+    "title": "Формальное представление естественного языка",
+    "section": "Abugida",
+    "text": "Abugida\nBasic characters denote consonants followed by one dedicated vowel, other vowels being denoted by additional signs.\n\n\n\n\nUniversal Declaration of Human Rights in Tibetan"
+  },
+  {
+    "objectID": "index.html#writing-lineage-and-culture",
+    "href": "index.html#writing-lineage-and-culture",
+    "title": "Формальное представление естественного языка",
+    "section": "Writing, lineage, and culture",
+    "text": "Writing, lineage, and culture\nClosely related languages sometimes share a writing system\n\nmost of the European languages, for instance, use the Latin alphabet, with some adjustments here and there.\n\nHowever, that is by far not always the case."
+  },
+  {
+    "objectID": "index.html#romance",
+    "href": "index.html#romance",
+    "title": "Формальное представление естественного языка",
+    "section": "Romance",
+    "text": "Romance\nRomanian old and new\n\nContemporary Romanian19th-century Romanian\n\n\nTatăl nostru, Care ești în ceruri, Sfinţească-se numele Tău, Vie împărăţia Ta, Facă-se voia Ta, Precum în cer aşa şi pe pământ. Pâinea noastră cea de toate zilele Dă-ne-o nouă astăzi. Şi ne iartă nouă greşelile noastre, Precum şi noi iertăm greşiţilor noştri. Şi nu ne duce pe noi în ispită, Ci ne izbăveşte de cel rău.\n\n\n\n\n\n\n1786 Lord’s Prayer"
+  },
+  {
+    "objectID": "index.html#romance-ladino",
+    "href": "index.html#romance-ladino",
+    "title": "Формальное представление естественного языка",
+    "section": "Romance: Ladino",
+    "text": "Romance: Ladino\n\nLadino (Hebrew script)Ladino (Romanised version)\n\n\nטודוס לוס אומאנוס נאסין ליבריס אי איגואליס אין דיניידאד אי דיריטוס אי, קומו איסטאן איקיפאדוס די ראזון אי קונסאינסיה, דיבין קומפורטארסין קון אירמאנדאד לוס אונוס קון לוס אוטרוס.\n\n\nTodos los umanos nasen libres i iguales en dinyidad i diritos i, komo estan ekipados de razon i konsensia, deven komportarsen kon ermandad los unos kon los otros."
+  },
+  {
+    "objectID": "index.html#slavonic",
+    "href": "index.html#slavonic",
+    "title": "Формальное представление естественного языка",
+    "section": "Slavonic",
+    "text": "Slavonic\n\nRussian in Arabic scriptSame text in Cyrillic\n\n\n\n\n\nПрарок мувил: Ужо йа из сего сьвета зийду, тилко вам йеден дастамент адказуйу; посьле мене, майе тевариства, не разлучайцесе, у адном мейсцу пац вахтав немаз кланийцисе."
+  },
+  {
+    "objectID": "index.html#summary",
+    "href": "index.html#summary",
+    "title": "Формальное представление естественного языка",
+    "section": "Summary",
+    "text": "Summary\n\nLogographic writing systems focus on words (Chinese, Japanese hieroglyphs)\nSyllabaries encode syllables (Japanese, Korean, Amharic, Hindi, Tibetan, …)\nAlphabets encode individual sounds (English, Russian, Armenian, Greek, …)\na lot of halfway, in-between systems (Arabic, Hebrew etc.)"
+  },
+  {
+    "objectID": "index.html#clay-tablets",
+    "href": "index.html#clay-tablets",
+    "title": "Формальное представление естественного языка",
+    "section": "Clay tablets",
+    "text": "Clay tablets"
+  },
+  {
+    "objectID": "index.html#the-behistun-inscription",
+    "href": "index.html#the-behistun-inscription",
+    "title": "Формальное представление естественного языка",
+    "section": "The Behistun inscription",
+    "text": "The Behistun inscription"
+  },
+  {
+    "objectID": "index.html#method",
+    "href": "index.html#method",
+    "title": "Формальное представление естественного языка",
+    "section": "Method",
+    "text": "Method\n\n\n\nidentify repeating symbols;\nidentify what language the text is in;\nthat’s basically it\njust joking, almost"
+  },
+  {
+    "objectID": "index.html#three-basic-steps",
+    "href": "index.html#three-basic-steps",
+    "title": "Формальное представление естественного языка",
+    "section": "Three basic steps",
+    "text": "Three basic steps\n\nidentify Language 1 as Persian;\nidentify Language 2 as Akkadian (Semitic);\nidentify Language 3 as neither one nor the other\n\nobserve commonalities in writing and pronunciation"
+  },
+  {
+    "objectID": "index.html#range-of-options",
+    "href": "index.html#range-of-options",
+    "title": "Формальное представление естественного языка",
+    "section": "Range of options",
+    "text": "Range of options\n\nspeech analysis/output\ntext analysis/output"
+  },
+  {
+    "objectID": "index.html#speech-technology",
+    "href": "index.html#speech-technology",
+    "title": "Формальное представление естественного языка",
+    "section": "Speech technology",
+    "text": "Speech technology\n\nAutomatic Speech Recognition (ASR)\n\nsound as input, text as output\n\nText-to-Speech (TTS)"
+  },
+  {
+    "objectID": "index.html#text-based-tech",
+    "href": "index.html#text-based-tech",
+    "title": "Формальное представление естественного языка",
+    "section": "Text-based tech",
+    "text": "Text-based tech\n\ntext summarisation\nquestion answering\nmachine translation\n…"
+  },
+  {
+    "objectID": "index.html#cascaded-architecture-for-speech-io-systems",
+    "href": "index.html#cascaded-architecture-for-speech-io-systems",
+    "title": "Формальное представление естественного языка",
+    "section": "Cascaded architecture for speech i/o systems",
+    "text": "Cascaded architecture for speech i/o systems"
+  },
+  {
+    "objectID": "index.html#speech-vs.-text-the-ratio",
+    "href": "index.html#speech-vs.-text-the-ratio",
+    "title": "Формальное представление естественного языка",
+    "section": "Speech vs. text: the ratio",
+    "text": "Speech vs. text: the ratio\nCurrent language technology is predominantly text-based. Why?\n\nlarge quantities of data used to train langtech systems are collections of texts\nwritten language is easier for computational modelling\n\nit’s discrete, segmented and neat, as opposed to the continuous non-segmented chaotic mess that is spoken language"
+  },
+  {
+    "objectID": "index.html#text-based-langtech-potential-pitfalls",
+    "href": "index.html#text-based-langtech-potential-pitfalls",
+    "title": "Формальное представление естественного языка",
+    "section": "Text-based langtech: potential pitfalls",
+    "text": "Text-based langtech: potential pitfalls\nNo way to recover information that writing does not convey:\n\nintonation\ngeneral tone of voice\npersonal characteristics of speakers\nemotion"
+  },
+  {
+    "objectID": "index.html#text-based-langtech-potential-pitfalls-1",
+    "href": "index.html#text-based-langtech-potential-pitfalls-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Text-based langtech: potential pitfalls",
+    "text": "Text-based langtech: potential pitfalls\nBut also\n\nwords that are written identically but are pronounced differently\n\neither for lexical reasons (bow being pronounced as [bəʊ] or [bɑʊ])\nor for grammatical reasons (read being pronounced as [riːd] or [rɛd], depending on the grammatical environment)"
+  },
+  {
+    "objectID": "index.html#writing-is-always-secondary-to-speech",
+    "href": "index.html#writing-is-always-secondary-to-speech",
+    "title": "Формальное представление естественного языка",
+    "section": "Writing is always secondary to speech",
+    "text": "Writing is always secondary to speech\n\nboth acquisitionally and historically\n\nlanguages can switch and have switched from one writing system to another — same message with zero similarity in form\na written message is necessarily preceded/accompanied by a spoken/signed message that it represents\n\nmajority of NLP systems only know about text\n\nif a language has multiple writing systems, a model exposed to all of them separately will have no way of knowing they represent the same language"
+  },
+  {
+    "objectID": "index.html#end-to-end-architecture-for-complex-speech-technology",
+    "href": "index.html#end-to-end-architecture-for-complex-speech-technology",
+    "title": "Формальное представление естественного языка",
+    "section": "End-to-end architecture for complex speech technology",
+    "text": "End-to-end architecture for complex speech technology"
+  },
+  {
+    "objectID": "index.html#beyond-asrtts-end-to-end-sound-io-systems",
+    "href": "index.html#beyond-asrtts-end-to-end-sound-io-systems",
+    "title": "Формальное представление естественного языка",
+    "section": "Beyond ASR/TTS: End-to-end sound i/o systems?",
+    "text": "Beyond ASR/TTS: End-to-end sound i/o systems?\n\naudio classification\nWhisper can directly translate to English from sound input with no text mediation\nHuBERT: self-supervised speech representation learning by masked prediction of hidden units\nSeamlessM4T"
+  },
+  {
+    "objectID": "index.html#more-challenges",
+    "href": "index.html#more-challenges",
+    "title": "Формальное представление естественного языка",
+    "section": "More challenges?",
+    "text": "More challenges?\n\nlinguistic diversity\n\naccents\n\nregional accents\nforeign accents\n\nlimited number of languages"
+  },
+  {
+    "objectID": "index.html#whats-the-deal-with-accents",
+    "href": "index.html#whats-the-deal-with-accents",
+    "title": "Формальное представление естественного языка",
+    "section": "What’s the deal with accents?",
+    "text": "What’s the deal with accents?\nLet’s briefly consider merged vowels/vowel mergers in different varieties of English.\n\ncot–caught merger\ntrap–bath merger"
+  },
+  {
+    "objectID": "index.html#ɒ-and-ɔː-in-north-america",
+    "href": "index.html#ɒ-and-ɔː-in-north-america",
+    "title": "Формальное представление естественного языка",
+    "section": "/ɒ/ and /ɔː/ in North America",
+    "text": "/ɒ/ and /ɔː/ in North America\n\n\n\n\nCot vs. caught merger"
+  },
+  {
+    "objectID": "index.html#chinese-writing",
+    "href": "index.html#chinese-writing",
+    "title": "Формальное представление естественного языка",
+    "section": "Chinese writing",
+    "text": "Chinese writing\n\nTaskAnswers\n\n\n\nGiven are words in modern standard Chinese and their translations into English in a mixed order.\n\n午饭, 桌子, 橙子, 下午, 上海, 橙色, 上午, 饭桌, 红色, 咖啡, 饭馆, 吃饭\norange colour, to eat (to have a meal), dining table, table, coffee, orange (fruit), red colour, Shanghai (literally ‘upper sea’), evening (second half of the day), restaurant, lunch (meal), morning (first half of the day)\n\nTask 1. Establish the correct correspondences.\nTask 2. Translate from Chinese: 咖啡馆, 咖啡色.\nTask 3. What role do you think the character 子 plays in the words in the prompt?\n\n\n\n\n\n午饭 — lunch (day food)\n桌子 — table\n橙子 — orange (fruit)\n下午 — evening (‘lower day’)\n上海 — Shanghai (‘upper sea’)\n橙色 — orange colour\n上午 — morning (‘upper day’)\n饭桌 — dining (food) table\n红色 — red colour\n咖啡 — coffee\n饭馆 — restaurant (‘food place’)\n吃饭 — eat (‘take food’)"
+  },
+  {
+    "objectID": "index.html#acknowledgement",
+    "href": "index.html#acknowledgement",
+    "title": "Формальное представление естественного языка",
+    "section": "Acknowledgement",
+    "text": "Acknowledgement\nThanks to Lisa Bylinina for making her excellent teaching materials publicly available.\n\n\n\n\n\n\n\n\nAdger, David. 2019. Language unlimited. Oxford: Oxford University Press.\n\n\nLudlow, Peter. 2011. The Philosophy of Generative Linguistics. Oxford University Press."
+  },
+  {
+    "objectID": "index.html#цели-на-сегодня",
+    "href": "index.html#цели-на-сегодня",
+    "title": "Формальное представление естественного языка",
+    "section": "Цели на сегодня",
+    "text": "Цели на сегодня\n\nорганизационные моменты\nформальные модели как абстрактные модели\nчто такое синтаксис?\nобзор материала\nсинтаксическая структура и порядок слов\nчасти речи\n\nдистрибутивные критерии\nформальные критерии\n\nлексические и функциональные категории"
+  },
+  {
+    "objectID": "index.html#лекции-и-семинары",
+    "href": "index.html#лекции-и-семинары",
+    "title": "Формальное представление естественного языка",
+    "section": "Лекции и семинары",
+    "text": "Лекции и семинары\n\nвстречаемся еженедельно;\nпосещаемость чрезвычайно важна для адекватного усвоения материала"
+  },
+  {
+    "objectID": "index.html#работа-на-занятии",
+    "href": "index.html#работа-на-занятии",
+    "title": "Формальное представление естественного языка",
+    "section": "Работа на занятии",
+    "text": "Работа на занятии\n\nзадавайте свои вопросы по ходу изложения материала, не откладывайте на потом\nне стесняйтесь отвечать на мои вопросы\nк занятиям необходимо готовиться\n\nчтение заданных глав и страниц перед занятием\nвыполнение заданных упражнений"
+  },
+  {
+    "objectID": "index.html#литература",
+    "href": "index.html#литература",
+    "title": "Формальное представление естественного языка",
+    "section": "Литература",
+    "text": "Литература\n\nМитренина О.В., Романова Е.Е., Слюсарь Н.А. 2012. Введение в генеративную грамматику. — М.: Книжный дом «ЛИБРОКОМ»."
+  },
+  {
+    "objectID": "index.html#критерии-оценки-знаний-навыков",
+    "href": "index.html#критерии-оценки-знаний-навыков",
+    "title": "Формальное представление естественного языка",
+    "section": "Критерии оценки знаний, навыков",
+    "text": "Критерии оценки знаний, навыков\n\nСвоевременное выполнение самостоятельных работ, внятное изложение решений.\nЗнакомство с основными языковыми явлениями и понятиями, обсуждавшимися на занятиях, владение основными методами анализа.\nЗнакомство с содержанием статей, заданных для самостоятельного прочтения.\n\nОценки по всем формам текущего контроля выставляются по 10-ти балльной шкале"
+  },
+  {
+    "objectID": "index.html#порядок-формирования-оценок-по-дисциплине",
+    "href": "index.html#порядок-формирования-оценок-по-дисциплине",
+    "title": "Формальное представление естественного языка",
+    "section": "Порядок формирования оценок по дисциплине",
+    "text": "Порядок формирования оценок по дисциплине\n\n\nдомашнее задание: 25%\nвикторина: 35%\nписьменный экзамен: 40%"
+  },
+  {
+    "objectID": "index.html#лингвистика-и-формальные-модели",
+    "href": "index.html#лингвистика-и-формальные-модели",
+    "title": "Формальное представление естественного языка",
+    "section": "Лингвистика и формальные модели",
+    "text": "Лингвистика и формальные модели\n\nЯзык является удивительным проявлением человеческого сознания.\nЯзык — не просто средство коммуникации, но и инструмент мысли.\nЛингвистика — часть когнитивной науки, чьей целью является поиск ментальных абстрактных структур и алгоритмов, вовлечённых в мышление, понимание и использование языка.\n\nКаким образом последовательность звуков способна инициировать последовательность мыслей?\nВероятно, в сознании человека существуют определённые символические структуры."
+  },
+  {
+    "objectID": "index.html#научный-метод",
+    "href": "index.html#научный-метод",
+    "title": "Формальное представление естественного языка",
+    "section": "Научный метод",
+    "text": "Научный метод\n\nНаука — поиск знания и понимания того, как устроен мир.\nДостичь понимания значит открыть общие законы и принципы.\nНаучные принципы и законы подвергаются экспериментальной проверке."
+  },
+  {
+    "objectID": "index.html#какое-отношение-это-имеет-к-грамматике",
+    "href": "index.html#какое-отношение-это-имеет-к-грамматике",
+    "title": "Формальное представление естественного языка",
+    "section": "Какое отношение это имеет к грамматике?",
+    "text": "Какое отношение это имеет к грамматике?\n\nЧто значит понимать грамматику?\nКакие могут существовать законы и принципы грамматики?\nКаким образом можно проверить эти законы и принципы грамматики экспериментально?"
+  },
+  {
+    "objectID": "index.html#язык-как-объект-естественного-мира",
+    "href": "index.html#язык-как-объект-естественного-мира",
+    "title": "Формальное представление естественного языка",
+    "section": "Язык как объект естественного мира",
+    "text": "Язык как объект естественного мира\n\nЯзыковая способность не является артефактом, а появилась в процессе эволюции\nЯзык не учат, а усваивают"
+  },
+  {
+    "objectID": "index.html#знание-языка",
+    "href": "index.html#знание-языка",
+    "title": "Формальное представление естественного языка",
+    "section": "Знание языка",
+    "text": "Знание языка\nКогда мы слышим высказывания типа „Я знаю x”, то у нас обычно возникают следующие вопросы:\n\nЧто именно он(а) знает?\nКак он(а) получил(а) это знание?\nКак это знание используется?"
+  },
+  {
+    "objectID": "index.html#формальные-модели-как-модели-знания",
+    "href": "index.html#формальные-модели-как-модели-знания",
+    "title": "Формальное представление естественного языка",
+    "section": "Формальные модели как модели знания",
+    "text": "Формальные модели как модели знания\nЕсли эти же вопросы применить к языку, то получится примерно следующее:\n\nЧто именно человек знает, зная язык?\nКак происходит усвоение языка?\nКак знание языка используется (например, в речи или понимании)?\n\nС такой точки зрения формальные модели — это модели знания, полученного нами в процессе усвоения языка."
+  },
+  {
+    "objectID": "index.html#ещё-о-формальных-моделях",
+    "href": "index.html#ещё-о-формальных-моделях",
+    "title": "Формальное представление естественного языка",
+    "section": "Ещё о формальных моделях",
+    "text": "Ещё о формальных моделях\nЭтот курс посвящён генеративной лингвистике.\nОсновная её цель заключается в попытке объяснить и понять языковые явления путём создания теории глубинных механизмов, лежащих в основе этих явлений.\n\nв этом смысле химия/биология/физика точно так же генеративны\n\nГенеративная лингвистика руководствуется соображениями простоты при сравнении конкурирующих теорий."
+  },
+  {
+    "objectID": "index.html#ещё-о-знании-языка",
+    "href": "index.html#ещё-о-знании-языка",
+    "title": "Формальное представление естественного языка",
+    "section": "Ещё о знании языка",
+    "text": "Ещё о знании языка\nЗнание языка обусловлено языковой способностью\n\nЯзыковая способность присуща только человеку\nЯзыковая способность является врождённой\n\nкак это показать?\n\nЯзыковая способность лишь косвенно связана с коммуникацией\nЯзыковая способность не сводима к общим когнитивным механизмам\n\nВ противном случае перед нами логическая проблема"
+  },
+  {
+    "objectID": "index.html#языковая-способность-присуща-только-человеку",
+    "href": "index.html#языковая-способность-присуща-только-человеку",
+    "title": "Формальное представление естественного языка",
+    "section": "Языковая способность присуща только человеку",
+    "text": "Языковая способность присуща только человеку\n\nтривиально истинно, но можем обсудить\n\nнеобходимо сравнить с другими животными\nнеобходимо сравнить с машинами"
+  },
+  {
+    "objectID": "index.html#язык-коммуникация",
+    "href": "index.html#язык-коммуникация",
+    "title": "Формальное представление естественного языка",
+    "section": "Язык \\(≠\\) коммуникация",
+    "text": "Язык \\(≠\\) коммуникация\nЧасто говорят, что главной функцией языка является функция коммуникативная.\nЗначит ли это, что язык является прежде всего системой коммуникации?\nДавайте сравним язык и алкоголь (Adger 2019)."
+  },
+  {
+    "objectID": "index.html#язык-и-коммуникация",
+    "href": "index.html#язык-и-коммуникация",
+    "title": "Формальное представление естественного языка",
+    "section": "Язык и коммуникация",
+    "text": "Язык и коммуникация\nНесомненно, что коммуникация — одно из применений языка, но это ничего не говорит нам о том, что же такое язык (или языковая способность).\nУ алкоголя множество разных применений (рекреационные, медицинские, технологические и пр.).\n\nникакое из этих применений не говорит нам, что же такое алкоголь\nтолько химик по-настоящему знает, что это: CH3CH2OH\n\nКак только мы узнали химическую структуру алкоголя, мы можем понять, почему алкоголь применяется таким образом, каким он применяется."
+  },
+  {
+    "objectID": "index.html#язык-и-коммуникация-1",
+    "href": "index.html#язык-и-коммуникация-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Язык и коммуникация",
+    "text": "Язык и коммуникация\nТак же и язык: мы поймём, почему языковая способность используется в тех целях, в которых она используется, не ранее, чем мы поймём, как она устроена.\n\nсначала нужно выявить абстрактные структуры языковых выражений (подобно атомам углерода, водорода и кислорода в составе молекулы этанола)"
+  },
+  {
+    "objectID": "index.html#усвоение-языка-как-логическая-проблема-modus-ponens",
+    "href": "index.html#усвоение-языка-как-логическая-проблема-modus-ponens",
+    "title": "Формальное представление естественного языка",
+    "section": "Усвоение языка как логическая проблема: modus ponens",
+    "text": "Усвоение языка как логическая проблема: modus ponens\n(modus ponens — доказательство способом вывода (т.е. силлогизм))\nПосылка 1\n\nСинтаксис — это продуктивная, рекурсивная и бесконечная система\n\nПосылка 2\n\nБесконечные системы правил нельзя выучить\n\nВывод\n\nСинтаксис невозможно выучить; следовательно, наличие у нас синтаксиса означает, что он частично врождённый"
+  },
+  {
+    "objectID": "index.html#посылка-1-1",
+    "href": "index.html#посылка-1-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Посылка 1",
+    "text": "Посылка 1\nЯзык — продуктивная система\n\nлюбой носитель любого языка способен порождать и понимать предложения, которых никогда прежде не слышал\n\n. . .\nЗадание\n\nПридумайте предложение длиной примерно в строку-полторы\n„Вбейте“ его — в кавычках — в поисковую строку Гугла\nЧто получается?"
+  },
+  {
+    "objectID": "index.html#посылка-1-2",
+    "href": "index.html#посылка-1-2",
+    "title": "Формальное представление естественного языка",
+    "section": "Посылка 1",
+    "text": "Посылка 1\nЯзыковая система рекурсивна\n\nпредложения могут включать в себя предложения\n\nСтуденты читают книгу.\nЯ думаю, что студенты читают книгу.\nТы сомневаешься, что я думаю, что студенты читают книгу\n…"
+  },
+  {
+    "objectID": "index.html#посылка-1-3",
+    "href": "index.html#посылка-1-3",
+    "title": "Формальное представление естественного языка",
+    "section": "Посылка 1",
+    "text": "Посылка 1\nЯзыковая система бесконечна\n\nсуществует ли самое длинное предложение?\nсуществует ли самое большое число?\n\n. . .\n\nнет!"
+  },
+  {
+    "objectID": "index.html#посылка-2-1",
+    "href": "index.html#посылка-2-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Посылка 2",
+    "text": "Посылка 2\nБесконечные системы невозможно выучить\n\nребёнок должен, основываясь на конечном массиве данных, перейти к бесконечной системе\n\nнапример, суметь установить соответствие между предложением и ситуацией, которую оно описывает\n\nдавайте рассмотрим аналогичную ситуацию в математике"
+  },
+  {
+    "objectID": "index.html#посылка-2-2",
+    "href": "index.html#посылка-2-2",
+    "title": "Формальное представление естественного языка",
+    "section": "Посылка 2",
+    "text": "Посылка 2\n\n\n\nПредложение (ввод)\nСитуация (вывод)\n\n\n\n\nx\ny\n\n\n1\n1\n\n\n2\n2\n\n\n3\n3\n\n\n4\n4\n\n\n5\n5\n\n\n6\n?\n\n\n\nЗадача: на основании имеющихся данных охарактеризовать функцию, ставящую x в соответствие y."
+  },
+  {
+    "objectID": "index.html#посылка-2-3",
+    "href": "index.html#посылка-2-3",
+    "title": "Формальное представление естественного языка",
+    "section": "Посылка 2",
+    "text": "Посылка 2\nОчевидный ответ: x = y\n\nСледовательно, y = 6\n\n\nМенее очевидный ответ: [(x - 5) × (x - 4) × (x - 3) × (x - 2) × (x - 1)] + x = y\n\nСледовательно, y = 126\n\n\n\nДля того, чтобы выучить правило, необходимо знать весь input, т.е. располагать всеми данными.\n\nНо мы только что выяснили, что это невозможно, т.к. число предложений бесконечно."
+  },
+  {
+    "objectID": "index.html#усвоение-языка-как-логическая-проблема-modus-ponens-1",
+    "href": "index.html#усвоение-языка-как-логическая-проблема-modus-ponens-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Усвоение языка как логическая проблема: modus ponens",
+    "text": "Усвоение языка как логическая проблема: modus ponens\n(modus ponens — доказательство способом вывода (т.е. силлогизм))\nПосылка 1\n\nСинтаксис — это продуктивная, рекурсивная и бесконечная система\n\nПосылка 2\n\nБесконечные системы правил нельзя выучить\n\nВывод\n\nСинтаксис невозможно выучить; следовательно, наличие у нас синтаксиса означает, что он частично врождённый"
+  },
+  {
+    "objectID": "index.html#что-такое-синтаксис",
+    "href": "index.html#что-такое-синтаксис",
+    "title": "Формальное представление естественного языка",
+    "section": "Что такое синтаксис?",
+    "text": "Что такое синтаксис?\nСинтаксис — это «мостик» между звуком и значением\n\nсемантика — синтаксис — фонология и фонетика"
+  },
+  {
+    "objectID": "index.html#синтаксис-как-научная-дисциплина",
+    "href": "index.html#синтаксис-как-научная-дисциплина",
+    "title": "Формальное представление естественного языка",
+    "section": "Синтаксис как научная дисциплина",
+    "text": "Синтаксис как научная дисциплина\nУстройство предложения\n\nслова, словосочетания, предложения и иерархическая структура\nграмматические признаки\nсинтаксические процессы и порядок слов\n\nСтруктура и иерархия\n\nструктура\n\nчасти целого\n\nиерархия\n\nупорядоченность частей по отношению друг к другу"
+  },
+  {
+    "objectID": "index.html#предмет-и-задача-синтаксиса",
+    "href": "index.html#предмет-и-задача-синтаксиса",
+    "title": "Формальное представление естественного языка",
+    "section": "Предмет и задача синтаксиса",
+    "text": "Предмет и задача синтаксиса\nСинтаксис изучает правила комбинации слов (неформальное определение)\n\nКлючевой факт: Носители воспринимают некоторые цепочки слов как допустимыe, а некоторые как недопустимые.\n\nThe clever snake disappeared into a hole in the ground.\n*Hole into disappeared ground the the in clever a snake.\n\n\nNB: помета * перед языковым выражением означает его неприемлемость."
+  },
+  {
+    "objectID": "index.html#необходимость-синтаксиса",
+    "href": "index.html#необходимость-синтаксиса",
+    "title": "Формальное представление естественного языка",
+    "section": "Необходимость синтаксиса",
+    "text": "Необходимость синтаксиса\nQ: Зачем изучать правила синтаксиса? Ведь любой носитель языка их и так знает!\nA: Носитель „знает” их имплицитно, но не может их сформулировать, а, скорее, обладает ими подобно визуальной системе (Ludlow 2011). Правила шахмат или искуственных языков имеют иную природу."
+  },
+  {
+    "objectID": "index.html#необходимость-синтаксиса-1",
+    "href": "index.html#необходимость-синтаксиса-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Необходимость синтаксиса",
+    "text": "Необходимость синтаксиса\nQ: А нужны ли особые правила? Возможно, человек просто запомнил приемлемую цепочку.\nA: Количество допустимых предложений слишком велико (потенциально бесконечно). Кроме того, люди способны оценить предложения, которые они никогда не слышали."
+  },
+  {
+    "objectID": "index.html#необходимость-синтаксиса-2",
+    "href": "index.html#необходимость-синтаксиса-2",
+    "title": "Формальное представление естественного языка",
+    "section": "Необходимость синтаксиса",
+    "text": "Необходимость синтаксиса\nQ: Носитель считает приемлемые предложения допустимыми, т.к. понимает их смысл.\nA: Носитель способен оценивать как допустимые даже семантически аномальные предложений и наоборот.\n\nГлокая куздра штеко будланула бокра и курдячит бокрёнка.\n*Моя твоя не понимай.\nColourless green ideas sleep furiously.\n*The child seems sleeping.\nЕсли не шаришь, то стопроц возьмёшь паль на свопе."
+  },
+  {
+    "objectID": "index.html#необходимость-синтаксиса-3",
+    "href": "index.html#необходимость-синтаксиса-3",
+    "title": "Формальное представление естественного языка",
+    "section": "Необходимость синтаксиса",
+    "text": "Необходимость синтаксиса\nQ: А что если носитель ошибается в своей оценке? Например, при grammaticality illusions * More people have been to Russia than I have.\nA: Визуальная система тоже может „ошибаться“, но это не значит, что её не надо изучать.\n\n\n\n\nИллюзия Мюллера-Лайера"
+  },
+  {
+    "objectID": "index.html#чем-синтаксис-не-является",
+    "href": "index.html#чем-синтаксис-не-является",
+    "title": "Формальное представление естественного языка",
+    "section": "Чем синтаксис не является?",
+    "text": "Чем синтаксис не является?\n\nизучение того, как лучше говорить\n-тся/-ться и прочие «грамматические» ошибки\n\nТаким образом, формальный синтаксис не является прескриптивным"
+  },
+  {
+    "objectID": "index.html#что-значит-прескриптивный",
+    "href": "index.html#что-значит-прескриптивный",
+    "title": "Формальное представление естественного языка",
+    "section": "Что значит „прескриптивный“?",
+    "text": "Что значит „прескриптивный“?\n\nизучение и преподавание иностранного языка\nправила орфографии и пунктуации\nрекомендации по улучшению коммуникативного стиля\nсоциальное профилирование"
+  },
+  {
+    "objectID": "index.html#формальное-представление-аналитический-инструмент",
+    "href": "index.html#формальное-представление-аналитический-инструмент",
+    "title": "Формальное представление естественного языка",
+    "section": "Формальное представление — аналитический инструмент",
+    "text": "Формальное представление — аналитический инструмент\n\nнаучный взгляд на языковые явления\n\nнаблюдение\nпоиск обобщений и объяснений\nмежъязыковая релевантность\n\nизучает грамматику как систему"
+  },
+  {
+    "objectID": "index.html#структура",
+    "href": "index.html#структура",
+    "title": "Формальное представление естественного языка",
+    "section": "Структура",
+    "text": "Структура\nСинтаксис оперирует иерархическими структурами. Следовательно, выражения естественного языка должны быть\n\nразложимы на выделимые части целого, которые\nнекоторым образом упорядочены по отношению друг к другу\n\nср. разбор по членам предложения из школьного курса русского языка\n\nкоторый представляет собой разновидность грамматики зависимостей"
+  },
+  {
+    "objectID": "index.html#слова-словосочетания-предложения",
+    "href": "index.html#слова-словосочетания-предложения",
+    "title": "Формальное представление естественного языка",
+    "section": "Слова < словосочетания < предложения",
+    "text": "Слова &lt; словосочетания &lt; предложения\n\n\nИван купил машину\n[Тот человек] купил [новую машину]\nИван сказал, [что он уходит]\n[Тот человек, [который купил новую машину]], сказал, [что он уходит]."
+  },
+  {
+    "objectID": "index.html#структура-определяет-значение",
+    "href": "index.html#структура-определяет-значение",
+    "title": "Формальное представление естественного языка",
+    "section": "Структура определяет значение",
+    "text": "Структура определяет значение\nЧто значит следующее предложение?\n\n\nJohn hit the dog with a hat in the garden.\n\n\nПопробуем выделить несколько отличающихся друг от друга ситуаций, каждую из которых оно могло бы описывать."
+  },
+  {
+    "objectID": "index.html#структура-определяет-значение-1",
+    "href": "index.html#структура-определяет-значение-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Структура определяет значение",
+    "text": "Структура определяет значение\n\nЗначение 1Значение 2Значение 3Значение 4Значение 5Значение 6\n\n\nJohn hit the dog with a hat in the garden.\n\nСуществует собака, которую бьют.\nШляпа выступает в качестве инструмента.\nСад выступает в качестве места события.\n\n\n\nJohn hit the dog with a hat in the garden.\n\nСуществует собака со шляпой на голове.\nЭту собаку бьют в саду.\nНет информации об инструменте.\n\n\n\nJohn hit the dog with a hat in the garden.\n\nСобака, которую бьют, носит шляпу и живёт в саду.\nНет информации ни об инструменте, ни о месте действия.\n\n\n\nJohn hit the dog with a hat in the garden.\n\nСобаку бьют лежащей в саду шляпой.\nНет информации о месте действия.\n\n\n\nJohn hit the dog with a hat in the garden.\n\nБьют собаку с „садовой“ шляпой на голове.\nНет информации ни об инструменте, ни о месте действия.\n\n\n\nJohn hit the dog with a hat in the garden.\n\n*Джон ударил находящуюся/живущую в саду собаку при помощи шляпы.\n\n Такого значения рассматриваемое предложение не имеет."
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Формальное представление естественного языка",
+    "section": "",
+    "text": "![](\n\nSyntax tree\n\n\n      предложение, этот человек купил новую машину )"
+  },
+  {
+    "objectID": "index.html#структура-определяет-значение-2",
+    "href": "index.html#структура-определяет-значение-2",
+    "title": "Формальное представление естественного языка",
+    "section": "Структура определяет значение",
+    "text": "Структура определяет значение\nИзбавимся от инвариантной части, т.е. от подлежащего John, и представим остаток в виде кубиков LEGO.\n\n\n\n\nОсновные компоненты\n\n\n\n Каждый кубик соответствует члену предложения в традиционной грамматике."
+  },
+  {
+    "objectID": "index.html#значение-1-1",
+    "href": "index.html#значение-1-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Значение 1",
+    "text": "Значение 1\n\n\nJohn hit the dog with a hat in the garden.\n\nСуществует собака, которую бьют.\nШляпа выступает в качестве инструмента.\nСад выступает в качестве места события."
+  },
+  {
+    "objectID": "index.html#значение-2-1",
+    "href": "index.html#значение-2-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Значение 2",
+    "text": "Значение 2\n\n\nJohn hit the dog with a hat in the garden.\n\nСуществует собака со шляпой на голове.\nЭту собаку бьют в саду.\nНет информации об инструменте.\n\n\n\n\n\n\n\n\nthe dog with a hat"
+  },
+  {
+    "objectID": "index.html#значение-3-1",
+    "href": "index.html#значение-3-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Значение 3",
+    "text": "Значение 3\n\n\nJohn hit the dog with a hat in the garden.\n\nСобака, которую бьют, носит шляпу и живёт в саду.\nНет информации ни об инструменте, ни о месте действия."
+  },
+  {
+    "objectID": "index.html#значение-4-1",
+    "href": "index.html#значение-4-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Значение 4",
+    "text": "Значение 4\n\n\nJohn hit the dog with a hat in the garden.\n\nСобаку бьют лежащей в саду шляпой.\nНет информации о месте действия."
+  },
+  {
+    "objectID": "index.html#значение-5-1",
+    "href": "index.html#значение-5-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Значение 5",
+    "text": "Значение 5\n\n\nJohn hit the dog with a hat in the garden.\n\nБьют собаку с „садовой“ шляпой на голове.\nНет информации ни об инструменте, ни о месте действия."
+  },
+  {
+    "objectID": "index.html#значение-6-1",
+    "href": "index.html#значение-6-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Значение 6",
+    "text": "Значение 6\n\n\nJohn hit the dog with a hat in the garden.\n\n*Джон ударил находящуюся/живущую в саду собаку при помощи шляпы.\n\nдолжно быть логически возможно"
+  },
+  {
+    "objectID": "index.html#литература-1",
+    "href": "index.html#литература-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Литература",
+    "text": "Литература\n\n\n\n\n\n\n\n\n\nAdger, David. 2019. Language unlimited. Oxford: Oxford University Press.\n\n\nLudlow, Peter. 2011. The Philosophy of Generative Linguistics. Oxford University Press."
+  },
+  {
+    "objectID": "index.html#структура-определяет-значение-3",
+    "href": "index.html#структура-определяет-значение-3",
+    "title": "Формальное представление естественного языка",
+    "section": "Структура определяет значение",
+    "text": "Структура определяет значение\nМы увидели, что одна и та же цепочка слов может иметь несколько значений ввиду разницы в иерархической структуре.\n\nср. с изомерами в химии (напр., глюкозой и маннозой)\n\n\n\n\n\nИзомеры сахара — глюкоза и манноза"
+  },
+  {
+    "objectID": "index.html#нотация-для-синтаксических-структур",
+    "href": "index.html#нотация-для-синтаксических-структур",
+    "title": "Формальное представление естественного языка",
+    "section": "Нотация для синтаксических структур",
+    "text": "Нотация для синтаксических структур\nИтак, мы увидели, что структура предложения сложнее одноуровнего соположения входящих в него слов:"
+  },
+  {
+    "objectID": "index.html#язык-и-коммуникация-2",
+    "href": "index.html#язык-и-коммуникация-2",
+    "title": "Формальное представление естественного языка",
+    "section": "Язык и коммуникация",
+    "text": "Язык и коммуникация\nКоммуникация1\n\nпроцесс передачи информации от одного человека к другому по разным каналам связи посредством общей системы знаков.\n\nобмен информацией между двумя и более речевыми субъектами,\nналичие общей системы знаков\n\n\nКоммуникация2\n\nэффективное синхронное и диахронное взаимодействие, цель которого состоит в передаче информации от одного субъекта к другому\n\nКоммуникация3\n\nобмен информацией между живыми организмами (общение)"
+  },
+  {
+    "objectID": "index.html#язык-и-коммуникация-эффективность",
+    "href": "index.html#язык-и-коммуникация-эффективность",
+    "title": "Формальное представление естественного языка",
+    "section": "Язык и коммуникация: эффективность",
+    "text": "Язык и коммуникация: эффективность\nЭффективность = однозначность\n\nэффективная передача сообщения/информации исключает любую неоднозначность\n\nестественный же язык изобилует неоднозначностями\n\nполисемия — лексическая неоднозначность\nомонимия — лексическая неоднозначность\nсинтаксическая неоднозначность\n\nвсе эти виды неоднозначности возможно сочетать друг с другом\n\n\n\\(\\rightarrow\\) язык — крайне неэффективная система коммуникации"
+  },
+  {
+    "objectID": "index.html#коммуникация-в-животном-мире",
+    "href": "index.html#коммуникация-в-животном-мире",
+    "title": "Формальное представление естественного языка",
+    "section": "Коммуникация в животном мире",
+    "text": "Коммуникация в животном мире\nОсновное свойство коммуникативных систем других животных — референциальность\n\n(реакция на некий стимул в реальном мире — опасность, добыча и пр.)\n\nтанец пчёл\nсигналы тревоги мартышек-верветок (vervet monkey alarm calls)\n…\n\nКоммуникация возможна в отсутствии человеческого языка."
+  },
+  {
+    "objectID": "index.html#части-речи",
+    "href": "index.html#части-речи",
+    "title": "Формальное представление естественного языка",
+    "section": "Части речи",
+    "text": "Части речи\nЧасти речи — это попытка найти закономерности в языковых выражениях.\n\nтрадиционные «школьные» определения ненадёжны и циркулярны\nнеобходимо использовать формальные (морфологические, парадигматические) и дистрибутивные (синтаксические, синтагматические) критерии\n\nтакие критерии носят дедуктивный характер"
+  },
+  {
+    "objectID": "index.html#формальные-критерии",
+    "href": "index.html#формальные-критерии",
+    "title": "Формальное представление естественного языка",
+    "section": "Формальные критерии",
+    "text": "Формальные критерии\nВыделение классов слов на основе их формы. Несколько примеров:\n\nглаголы: постфикс -ся\nсуществительные: уменьшительно-ласкательные суффиксы\nприлагательные: полная и краткая формы"
+  },
+  {
+    "objectID": "index.html#дистрибутивные-критерии",
+    "href": "index.html#дистрибутивные-критерии",
+    "title": "Формальное представление естественного языка",
+    "section": "Дистрибутивные критерии",
+    "text": "Дистрибутивные критерии\nВыделение классов слов на основе их позиции. Несколько примеров:\n\nглаголы: употребляются с модальными предикатами\nсуществительные: следуют за детерминаторами\nприлагательные: аттрибутивно-предикативное чередование"
+  },
+  {
+    "objectID": "index.html#лексические-и-функциональные-категории",
+    "href": "index.html#лексические-и-функциональные-категории",
+    "title": "Формальное представление естественного языка",
+    "section": "Лексические и функциональные категории",
+    "text": "Лексические и функциональные категории\nЛексические категории обладают достаточно очевидным описательным содержанием\n\nсуществительные – стол, куртка, одиночество, азарт\nприлагательные – незаметный, жёлтый, пряный\nглаголы – посещать, бежать, веселиться\n\nФункциональные категории обладают исключительно грамматическим значением\n\nопределители/артикли – the, each\nпредлоги (?) – над, под, в, из-за\nсоюзы – что, чтобы"
+  },
+  {
+    "objectID": "index.html#морфемы-лексемы-слова",
+    "href": "index.html#морфемы-лексемы-слова",
+    "title": "Формальное представление естественного языка",
+    "section": "Морфемы, лексемы, слова",
+    "text": "Морфемы, лексемы, слова\nМорфема\n\nминимальная единица, несущая значение\n\nЛексема\n\nминимальная самостоятельная единица, несущая значение\n\nАффикс\n\nморфема, не являющаяся независимой\n\nСлово\n\nсамостоятельная единица, несущая значение"
+  },
+  {
+    "objectID": "index.html#несколько-примеров",
+    "href": "index.html#несколько-примеров",
+    "title": "Формальное представление естественного языка",
+    "section": "Несколько примеров",
+    "text": "Несколько примеров\n\nдверь\nязыкознание\n\nМорфема, лексема или слово?\n\nдверь = морфема, лексема и слово\n\nэти понятия не исключают друг друга\n\nязыкознание = сложное слово\n\nязык- = лексема\nзна- и -ние = морфемы"
+  },
+  {
+    "objectID": "index.html#признаки-и-их-значения",
+    "href": "index.html#признаки-и-их-значения",
+    "title": "Формальное представление естественного языка",
+    "section": "Признаки и их значения",
+    "text": "Признаки и их значения\n\nграмматический признак (англ. feature) \\(\\rightarrow\\) значение (англ. value)\n\n\n\n\nпризнак\nзначение\n\n\n\n\n[время]\npst, prs, fut, \n\n\n[число]\nsg, pl, \n\n\n[лицо]\n1, 2, 3"
+  },
+  {
+    "objectID": "index.html#группы",
+    "href": "index.html#группы",
+    "title": "Формальное представление естественного языка",
+    "section": "Группы",
+    "text": "Группы\nМы уже заметили следующее:\n\nслова объединяются в группы\nэти группы примерно соответствуют словосочетаниям\nне просто цепочка слов\nодин элемент в группе «главнее» остальных\n\\(\\rightarrow\\) вершина\n\\(\\rightarrow\\) у групп есть внутренняя структура\n\nНам ещё предстоит научиться\n\nопределять границы групп\nопределять вершины групп"
+  },
+  {
+    "objectID": "index.html#ищем-границы-групп",
+    "href": "index.html#ищем-границы-групп",
+    "title": "Формальное представление естественного языка",
+    "section": "Ищем границы групп",
+    "text": "Ищем границы групп\nКак понять, что отдельно взятая цепочка слов в предложении — группа?\n\nтесты на структуру составляющих\n\nКак принято представлять структуру групп/составляющих?\n\nскобочная запись; синтаксические «деревья»"
+  },
+  {
+    "objectID": "index.html#определяем-группы-структура-составляющих",
+    "href": "index.html#определяем-группы-структура-составляющих",
+    "title": "Формальное представление естественного языка",
+    "section": "Определяем группы: структура составляющих",
+    "text": "Определяем группы: структура составляющих\n\nКак понять, что перед нами составляющая?\n\nесли мы видим, что эта цепочка ведёт себя как целое\n\nДоступные тесты:\n\nизолирование\nзамена\nперемещение\nзамена + перемещение\nсочинение\n\nПозитивный результат? \\(\\rightarrow\\) вероятно, перед нами составляющая\nНегативный результат? \\(\\rightarrow\\) применяем другие тесты!"
+  },
+  {
+    "objectID": "index.html#определяем-группы-изолирование",
+    "href": "index.html#определяем-группы-изолирование",
+    "title": "Формальное представление естественного языка",
+    "section": "Определяем группы: изолирование",
+    "text": "Определяем группы: изолирование\nМожет ли цепочка слов употребляться сама по себе?\n\nСтуденты купили [ интересные книги по языкознанию ].\n\nЧто купили студенты?\n[ Интересные книги по языкознанию ].\n\n\n\\(\\rightarrow\\) интересные книги по языкознанию = составляющая"
+  },
+  {
+    "objectID": "index.html#определяем-группы-замена",
+    "href": "index.html#определяем-группы-замена",
+    "title": "Формальное представление естественного языка",
+    "section": "Определяем группы: замена",
+    "text": "Определяем группы: замена\nМожет ли цепочка слов быть заменена одним словом?\n\nСтуденты купили [ интересные книги по языкознанию ].\n\nСтуденты купили их.\n\n\n\\(\\rightarrow\\) интересные книги по языкознанию = составляющая"
+  },
+  {
+    "objectID": "index.html#определяем-группы-замена-невидимкой-эллипсис",
+    "href": "index.html#определяем-группы-замена-невидимкой-эллипсис",
+    "title": "Формальное представление естественного языка",
+    "section": "Определяем группы: замена «невидимкой» (эллипсис)",
+    "text": "Определяем группы: замена «невидимкой» (эллипсис)\nМожно ли цепочку опустить?\n\nСтуденты [ купили [ интересные книги по языкознанию ]]\n\nи преподы тоже.\nа преподы не купили.\n\n\n\\(\\rightarrow\\) купили интересные книги по языкознанию = составляющая\n\\(\\rightarrow\\) интересные книги по языкознанию = составляющая"
+  },
+  {
+    "objectID": "index.html#определяем-группы-перемещение",
+    "href": "index.html#определяем-группы-перемещение",
+    "title": "Формальное представление естественного языка",
+    "section": "Определяем группы: перемещение",
+    "text": "Определяем группы: перемещение\nМожно ли поставить цепочку слов в другую позицию?\n\nСтуденты купили [ интересные книги по языкознанию ].\n\n[ Интересные книги по языкознанию ] купили студенты.\n(двигаем исключительно на левый край)\n\n\n\\(\\rightarrow\\) интересные книги по языкознанию = составляющая"
+  },
+  {
+    "objectID": "index.html#определяем-группы-замена-перемещение",
+    "href": "index.html#определяем-группы-замена-перемещение",
+    "title": "Формальное представление естественного языка",
+    "section": "Определяем группы: замена + перемещение",
+    "text": "Определяем группы: замена + перемещение\nМожно ли заменить цепочку одним словом и переместить его?\n\nСтуденты купили [ интересные книги по языкознанию ].\n\n[ Что ] купили студенты?\n\n\n\\(\\rightarrow\\) интересные книги по языкознанию = составляющая"
+  },
+  {
+    "objectID": "index.html#определяем-группы-сочинение",
+    "href": "index.html#определяем-группы-сочинение",
+    "title": "Формальное представление естественного языка",
+    "section": "Определяем группы: сочинение",
+    "text": "Определяем группы: сочинение\nМожно ли сочинить цепочку с похожей на неё цепочкой?\n\nСтуденты купили [ интересные книги по языкознанию ]\n\nи [ скучные журналы про знаменитостей ]\n\n\n\\(\\rightarrow\\) интересные книги по языкознанию = составляющая"
+  },
+  {
+    "objectID": "index.html#примеры-отрицательных-результатов",
+    "href": "index.html#примеры-отрицательных-результатов",
+    "title": "Формальное представление естественного языка",
+    "section": "Примеры отрицательных результатов",
+    "text": "Примеры отрицательных результатов\nПокажем, что цепочка слов в скобках не похожа на составляющую\n\n[ Студенты купили ] интересные книги по языкознанию."
+  },
+  {
+    "objectID": "index.html#изолирование",
+    "href": "index.html#изолирование",
+    "title": "Формальное представление естественного языка",
+    "section": "Изолирование",
+    "text": "Изолирование\nДве возможности:\n\nлибо студенты купили имеет дистрибуцию студентов,\n\nи тогда мы задаём вопрос к студентам\n\nлибо студенты купили имеет дистрибуцию купили\n\nи тогда мы задаём вопрос к купили\n\n\nПроверим:\n\n[ Студенты купили ] интересные книги по языкознанию.\n*Кто интересные книги по языкознанию? – *Студенты купили.\nЧто сделали интересные книги по языкознанию? – *Студенты купили.\n\nРезультат применения теста «Изолирование» является отрицательным."
+  },
+  {
+    "objectID": "index.html#замена",
+    "href": "index.html#замена",
+    "title": "Формальное представление естественного языка",
+    "section": "Замена",
+    "text": "Замена\nДве возможности:\n\nлибо студенты купили имеет дистрибуцию студентов,\n\nи тогда мы заменяем студенты купили на именную проформу (напр., они)\n\nлибо студенты купили имеет дистрибуцию купили\n\nи тогда мы заменяем студенты купили на (отсутствующую в русском языке) глагольную проформу (что-нибудь типа сделали это)\n\n\nПроверим:\n\n[ Студенты купили ] интересные книги по языкознанию.\n*Они интересные книги по языкознанию.\n*Сделали это интересные книги по языкознанию.\n\nВ результате обеих замен получаются предложения, не имеющие никакого отношения к исходному."
+  },
+  {
+    "objectID": "index.html#определяем-группы-резюме",
+    "href": "index.html#определяем-группы-резюме",
+    "title": "Формальное представление естественного языка",
+    "section": "Определяем группы: резюме",
+    "text": "Определяем группы: резюме\n\nКак понять, что перед нами составляющая?\n\nесли мы видим, что эта цепочка ведёт себя как целое\n\nДоступные тесты:\n\nизолирование\nзамена\nперемещение\nзамена + перемещение\nсочинение\n\nПозитивный результат? \\(\\rightarrow\\) вероятно, перед нами составляющая\n\nвозможны ложноположительные результаты\n\nНегативный результат? \\(\\rightarrow\\) применяем другие тесты!"
+  },
+  {
+    "objectID": "index.html#группы-1",
+    "href": "index.html#группы-1",
+    "title": "Формальное представление естественного языка",
+    "section": "Группы",
+    "text": "Группы\nПовторим:\n\nслова объединяются в группы\nэти группы примерно соответствуют словосочетаниям\nне просто цепочка слов\nодин элемент в группе «главнее» остальных\n\\(\\rightarrow\\) вершина\n\\(\\rightarrow\\) у групп есть внутренняя структура"
+  },
+  {
+    "objectID": "index.html#вершины-и-зависимые",
+    "href": "index.html#вершины-и-зависимые",
+    "title": "Формальное представление естественного языка",
+    "section": "Вершины и зависимые",
+    "text": "Вершины и зависимые\nЭлементы группы\n\nвершина\nкомплемент\nадъюнкт/спецификатор\n\nОтношения между вершиной и зависимыми\n\nселекция: вершина требует наличия комплемента\nпорядок слов: в зависимости от языка\n\nвершина–комплемент\nкомплемент–вершина"
+  },
+  {
+    "objectID": "index.html#вершина-определяет-значение-группы",
+    "href": "index.html#вершина-определяет-значение-группы",
+    "title": "Формальное представление естественного языка",
+    "section": "Вершина определяет значение группы",
+    "text": "Вершина определяет значение группы\nВ группе эти невероятно интересные книги по лингвистике речь идёт о книгах\n\nпроблемные случаи (о них ниже) — это когда вершиной является функциональная, а не лексическая категория"
+  },
+  {
+    "objectID": "index.html#вершина-определяет-грамматическую-категорию-группы",
+    "href": "index.html#вершина-определяет-грамматическую-категорию-группы",
+    "title": "Формальное представление естественного языка",
+    "section": "Вершина определяет грамматическую категорию группы",
+    "text": "Вершина определяет грамматическую категорию группы\nЕсли X — вершина, то группа будет XP\n\nNP (от англ. Noun Phrase)\nVP (от англ. Verb Phrase)\nAP (от англ. Adjective Phrase)\nPP (от англ. Prepositional Phrase)\nи т.п."
+  },
+  {
+    "objectID": "index.html#вершину-нельзя-опустить",
+    "href": "index.html#вершину-нельзя-опустить",
+    "title": "Формальное представление естественного языка",
+    "section": "Вершину нельзя опустить",
+    "text": "Вершину нельзя опустить\n*эти невероятно интересные по лингвистике\nNB: не то же самое, что эллипсис!"
+  },
+  {
+    "objectID": "index.html#у-вершины-та-же-дистрибуция-что-у-группы",
+    "href": "index.html#у-вершины-та-же-дистрибуция-что-у-группы",
+    "title": "Формальное представление естественного языка",
+    "section": "У вершины та же дистрибуция, что у группы",
+    "text": "У вершины та же дистрибуция, что у группы\nЯ читаю эти невероятно интересные книги по лингвистике\n\\(\\rightarrow\\) Я читаю книги"
+  },
+  {
+    "objectID": "index.html#вершина-определяет-зависимое",
+    "href": "index.html#вершина-определяет-зависимое",
+    "title": "Формальное представление естественного языка",
+    "section": "Вершина определяет зависимое",
+    "text": "Вершина определяет зависимое\n\nналичие зависимого\nформу зависимого\n\nсогласование\nпадеж"
+  },
+  {
+    "objectID": "index.html#значение-функциональных-категорий",
+    "href": "index.html#значение-функциональных-категорий",
+    "title": "Формальное представление естественного языка",
+    "section": "Значение функциональных категорий",
+    "text": "Значение функциональных категорий\nфункциональные категории также могут быть вершинами\n\nМиша спросил/сказал [CP когда/что его поезд отправляется ]\n\nзначение: тип предложения (вопрос/утверждение)"
+  }
+]
